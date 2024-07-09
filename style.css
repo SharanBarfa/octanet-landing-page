@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS','Lucida Sans Unicode','lucika sans',Arial,sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+}
+.top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2-1024x684.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.216);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 5vh;
+    color: rgba(233, 231, 231, 0.989);
+    bottom: 10%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://2.bp.blogspot.com/-jRSQxTgCNLw/XC27l0ZhNLI/AAAAAAAACoA/MG66u26hwtI0b2CyGmM9yd_esIhZQ_IQgCLcBGAs/s1600/best%2Bbackground%2Bimages%2B1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 300px;
+    width: 220px;
+    
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://www.shadowood.com/pixabay21.jpg);
+    background-color: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 150px;
+}
+.b1 p{
+    color: rgba(5, 5, 5, 0.919);
+    text-align: center;
+    padding: 15px;
+    bottom: 5%;
+}
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://getwallpapers.com/wallpaper/full/f/2/8/926365-cool-summer-backgrounds-1920x1080-for-lockscreen.jpg);
+    background-color: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 45px;
+}
+.b2 .up p{
+    color: rgba(3, 3, 3, 0.963);
+    text-align: center;
+    padding: 15px;
+
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://www.shadowood.com/pixabay1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down h1{
+    text-align: center;
+    padding: 45px;
+}
+.b2 .down p{
+    color: rgba(3, 3, 3, 0.963);
+    text-align: center;
+    padding: 25px;
+
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/Landscape-wallpaper-16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b3 p1{
+    justify-content: right;
+    position: relative;
+    margin-left: 70%;
+    color: rgba(1, 1, 1, 0.991);
+    bottom: -70%;
+}
+.b3 p2{
+    justify-content: right;
+    position: relative;
+    margin-left: 70%;
+    color: rgba(1, 1, 1, 0.991);
+}
+.b3 p3{
+    justify-content: right;
+    position: relative;
+    margin-left: 70%;
+    color: rgba(1, 1, 1, 0.991);
+}
+.b3 p4{
+    justify-content: right;
+    position: relative;
+    margin-left: 70%;
+    color: rgba(1, 1, 1, 0.991);
+}
+@media(max-width:700px){
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width: 100%;
+        margin-left: initial;
+    }
+    .b1 h1{
+        width: 100%;
+        text-align: flex;
+    }
+}
+@media(mex-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width: 100%;
+        text-align: center;
+    }
+    .b1 h1{
+        text-align: flex;
+    }
+    .b2{
+        width: 100%;
+        text-align: center;
+    }
+    .b2 up{
+        min-height: 30vh;
+        text-align: center;
+    }
+    .b3{
+        width: 100%;
+        background-position: left;
+        text-align: center;
+    }
+}
+
+
